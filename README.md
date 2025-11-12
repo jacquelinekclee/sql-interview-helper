@@ -19,26 +19,32 @@ An OpenAI key is not necessary to use this helper. Instead of custom feedback fo
 ## Set Up Your Virtual Environment
 Once you're in the directory of this repository, run the following commands in your terminal:
 
-`python3 -m venv env`
-`source env/bin/activate`
+```sh
+python3 -m venv env
+source env/bin/activate
+```
 
 ### Install Necessary Packages
-Run the commands below to install the necessary packages. If at any point you get a `No module named '<package name>'` error, run `env/bin/python -m pip install <package name>`. 
+Run the commands below to install the necessary packages. If at any point you get a ` No module named '<package name>'` error, run `env/bin/python -m pip install <package name>`. 
 
-`env/bin/python -m pip install streamlit`
+```sh
+env/bin/python -m pip install streamlit
 
-`env/bin/python -m pip install openai`
+env/bin/python -m pip install openai
 
-`env/bin/python -m pip install bs4`
+env/bin/python -m pip install bs4
 
-`env/bin/python -m pip install dotenv`
+env/bin/python -m pip install dotenv
 
-`env/bin/python -m pip install streamlit_code_editor`
+env/bin/python -m pip install streamlit_code_editor
+```
 
 # Run the SQL Interview Helper
 Once set up, use the command below to run the SQL Interview Helper:
 
-`env/bin/python -m streamlit run app.py`
+```sh
+env/bin/python -m streamlit run app.py
+```
 
 # Example Usage 
 ![example-usage-no-openai](./sql-interview-helper-demo-no-openai.gif)
