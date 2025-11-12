@@ -10,7 +10,7 @@ st.title("SQL Interview Helper")
 with st.sidebar:
     st.link_button("View the GitHub repository", "https://github.com/jacquelinekclee", icon="📁")
     st.link_button("View my portfolio", "https://jacquelinekclee.github.io/", icon = "👩🏻‍💻")
-    st.link_button("Connect with me on LinkedIn", "https://jacquelinekclee.github.io/", icon = "🤝")
+    st.link_button("Connect with me on LinkedIn", "https://www.linkedin.com/in/jacqueline-kc-lee/", icon = "🤝")
 
 def clear_new_exercise():
     '''

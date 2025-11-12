@@ -4,7 +4,9 @@
 
 Back in Fall 2022 at UC San Diego, my classmates and I built a Data Science Interview helper leveraging GPT 3.5 for the final project of the course Deep Learning for Natural Language Understanding. This was right around the time ChatGPT first released, and we couldn't have predicted what was to come. You can see the final paper we submitted [here](./lign_167_final_paper.pdf) for all the details.
 
-My portion was the SQL practice portion. I've taken that code and revamped it to use GPT-5 nano, and I also built a simple user interface leveraging Streamlit for users to more easily interact with the tool (an improvement from the Jupyter notebook I had submitted in 2022). Please see below for instructions on how to use my SQL Interview Helper. I hope this tool helps you hone your SQL skills and prepare for any interviews!
+My portion was the SQL practice portion. I've taken that code and revamped it to use GPT-5 nano, and I also built a simple user interface leveraging Streamlit for users to more easily interact with the tool (an improvement from the Jupyter notebook I had submitted in 2022). Please see below for instructions on how to use my SQL Interview Helper. I've also uploaded a version that removes any OpenAI API usage that's available to check out live on Streamlit linked [here](share_link) and below. I hope this tool helps you hone your SQL skills and prepare for any interviews!
+
+[![Try it in Streamlit][share_badge]][share_link] 
 
 # Set Up
 First clone this repository. You'll also need to have `python3` installed on your local machine. 
@@ -47,7 +49,12 @@ env/bin/python -m streamlit run app.py
 ```
 
 # Example Usage 
+[![Try it in Streamlit][share_badge]][share_link] 
+
 ![example-usage-no-openai](./sql-interview-helper-demo-no-openai.gif)
 
 # Sources
 SQL exercises are sourced from [w3resource](https://www.w3resource.com/index.php). 
+
+[share_badge]: https://static.streamlit.io/badges/streamlit_badge_black_white.svg
+[share_link]: https://sql-interview-practice.streamlit.app/
